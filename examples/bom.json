@@ -1,0 +1,36 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.7",
+  "version": 1,
+  "components": [
+    {
+      "type": "library",
+      "name": "demo-parent",
+      "version": "1.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "components": [
+        {
+          "type": "library",
+          "name": "demo-nested",
+          "version": "1.0"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "demo-expression",
+      "version": "1.0",
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ]
+    }
+  ]
+}
